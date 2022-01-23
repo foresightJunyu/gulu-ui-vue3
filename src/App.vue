@@ -1,17 +1,16 @@
 <template>
 <div>
-  1
-  <test />
+  导航栏 | <router-link to="/">TEST</router-link> | <router-link to="/xxx">TEST2</router-link>
+  <hr>
+
+  <router-view />
 </div>
 </template>
 
 <script>
-import Test from './components/Test.vue'
 
 export default {
   name: 'App',
-  components: {
-    Test
-  }
+
 }
 </script>
