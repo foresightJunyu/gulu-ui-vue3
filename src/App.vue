@@ -1,13 +1,16 @@
 <template>
-<div>
-  <router-view />
-</div>
+  <div>
+    <router-view />
+  </div>
 </template>
 
-<script>
-
+<script lang="ts">
+import { ref, provide } from "vue";
 export default {
-  name: 'App',
-
-}
+  name: "App",
+  setup() {
+    const menuVisible = ref(false);
+    provide("menuVisible", menuVisible);
+  },
+};
 </script>
