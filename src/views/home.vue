@@ -5,8 +5,8 @@
       <h1>This UI</h1>
       <h2>Nice</h2>
       <p class="actions">
-        <a href="">GitHub</a>
-        <a href="">开始</a>
+        <a href="https://github.com/foresightJunyu">GitHub</a>
+        <router-link to="/doc">开始</router-link>
       </p>
     </div>
   </div>
