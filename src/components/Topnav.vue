@@ -17,6 +17,9 @@ export default {
   background: pink;
   display: flex;
   padding: 16px;
+  position: relative;
+  z-index: 9;
+  // 加了position relative 才能使用 z-index
 
   > .logo {
     max-width: 6em;
